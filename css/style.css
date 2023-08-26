@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body{
+   background-color:rgb(32, 33, 36);
+}
+
+
+header{
+	display: flex;
+	background-color: rgb(32, 33, 36);
+}
+
+#header-img{
+	width: 25%;
+	display: grid;
+	place-items: center;
+}
+
+header img{
+	width: 80%;
+	border: 0.5rem solid #e5e5e5;
+}
+
+h1{
+    color: turquoise;
+    font-size: 100px;
+
+}
+
+.container1{
+    background-color: rgb(52, 60, 60);
+    display: flex;
+    justify-content: center;
+}
+
+
+.informar{
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.hr{
+    border: solid black 5px;
+}
+
+ #info{
+    display: flex;
+    background-color: black;
+    justify-content: center;   
+ }
+
+ .telefono{
+    color: white;
+    font-size: 40px;
+ }
+
+ .mail{
+    color: white;
+    font-size: 40px;
+ }
+
+ #experiencia{
+    display: flex;
+    
+ }
+  
+ li{
+    list-style-type: none
+ }
+ 
+ h2{
+    color: white;
+    font-size: 55px;
+ }
+
+
+ .periodo{
+    font-size: 55px;
+    color:white
+ }
+
+ .escuela{
+    font-size: 45px;
+    color: white;
+ }
+
+ .cargo{
+    font-size: 35px;
+    color: white;
+ }
+
+ .titulo{
+    font-size: 45px;
+    color: white;
+ }
+
+ .descripcion{
+    font-size: 35px;
+    color: white;
+ }
+
+.skills{
+    display: flex;
+    
+    
+}
+
+.uno{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-size: 35px;
+
+    
+}
+
+.dos{
+    display: flex;
+    justify-content: center;
+     color: white;
+     font-size: 35px;
+
+}
+
+.habilidades1{
+    display: flex;
+    direction: left;
+
+
+}
+
+.aficiones{
+    display: flex;
+    direction: right;
+    margin-left:  700px;
+    margin-top:  -300px;
+}
+
+footer{
+   color: white;
+}
+
+.image-profile{
+   display: flex;
+   width: 25px;
+   margin-left: 450px;
+   margin-top: -22px;
+}
+
